@@ -88,8 +88,11 @@ body {
   background-color: var(--primary-bcg-color);
   color: var(--primary-white-color);
 }
+
 /* Our team */
 
 .team-title-position {
   color: var(--primary-title-color);
 }
+
+/* Clients */

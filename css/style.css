@@ -94,5 +94,10 @@ body {
 .team-title-position {
   color: var(--primary-title-color);
 }
-
 /* Clients */
+
+/* footer */
+
+.icon {
+  color: #ffffff;
+}

@@ -3,6 +3,10 @@ body {
   color: #212121;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -28,7 +32,7 @@ body {
   color: #000000;
 }
 
-.logo-1 {
+.logo-second {
   color: #2196f3;
 }
 
@@ -43,11 +47,11 @@ body {
   color: #2196f3;
 }
 
-.auth .link {
+.auth-nav .link {
   color: #757575;
 }
 
-.auth .link:hover,
-.auth .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: #2196f3;
 }

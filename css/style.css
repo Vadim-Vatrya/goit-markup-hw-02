@@ -68,3 +68,13 @@ body {
 .modal-btn:hover {
   background-color: #188ce8;
 }
+
+/* Main */
+
+.section-title,
+.section-title-item,
+.title {
+  color: #212121;
+}
+
+/*  */

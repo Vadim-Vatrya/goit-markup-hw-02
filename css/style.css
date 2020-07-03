@@ -3,6 +3,10 @@ body {
   color: #212121;
 }
 
+.list {
+  list-style: none;
+}
+
 /* Основной цвет текста #212121 */
 
 /* Вторичный цвет текста #757575 */
@@ -19,10 +23,31 @@ body {
 
 /* вторичный цвет фона #F5F4FA */
 
+/*Стилизация логотипа*/
 .logo {
   color: #000000;
 }
 
 .logo-1 {
+  color: #2196f3;
+}
+
+/* Header */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth .link {
+  color: #757575;
+}
+
+.auth .link:hover,
+.auth .link:focus {
   color: #2196f3;
 }

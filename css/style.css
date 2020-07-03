@@ -1,6 +1,16 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-title-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f5f4fa;
+  --primary-bcg-color: #2f303a;
+}
+
 body {
-  background-color: #fff;
-  color: #212121;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -11,33 +21,18 @@ body {
   list-style: none;
 }
 
-/* Основной цвет текста #212121 */
+/* header */
 
-/* Вторичный цвет текста #757575 */
-
-/* белый #FFFFFF */
-
-/* Вторичный #2F303A */
-
-/* акцент #2196F3 */
-
-/* акцент ховера #188CE8 */
-
-/* Цвет футера #2F303A */
-
-/* вторичный цвет фона #F5F4FA */
-
-/*Стилизация header*/
 .logo {
   color: #000000;
 }
 
 .logo-second {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
@@ -54,7 +49,7 @@ body {
   color: #2196f3;
 }
 
-/* Герой */
+/* Hero */
 
 .hero-item {
   color: #ffffff;
@@ -74,7 +69,11 @@ body {
 .section-title,
 .section-title-item,
 .title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
-/*  */
+/* Advantages */
+
+.advantages-list .title {
+  color: var(--primary-text-color);
+}

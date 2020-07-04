@@ -1,6 +1,6 @@
 :root {
-  --primary-text-color: #212121;
-  --primary-title-color: #757575;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-accent-color: #188ce8;
   --primary-white-color: #ccbaba;
@@ -12,6 +12,9 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -39,10 +42,9 @@ body {
 
 .site-nav .site-nav-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -55,10 +57,9 @@ body {
 
 .auth-nav .auth-nav-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
 }
 
 .auth-nav .link:hover,
@@ -81,7 +82,7 @@ body {
 .modal-btn {
   font-family: inherit;
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 .modal-btn:hover {
@@ -95,33 +96,25 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 .title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .decoration {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
 }
 
 /*  Working*/
 
 .working-list-item {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14px;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
@@ -133,16 +126,14 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .team-title-position {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
 }
 /* Clients */
 
@@ -158,10 +149,8 @@ body {
 .mail,
 .phone {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71px;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
 }
 
 .mail:hover,
@@ -176,16 +165,12 @@ body {
 
 .map {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .footer-section .title {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+
+/* portfolio */

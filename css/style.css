@@ -174,3 +174,33 @@ body {
 }
 
 /* portfolio */
+
+.button-filtr {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-white-color);
+}
+
+.button-filtr:hover,
+.button-filtr:focus {
+  color: var(--accent-color);
+}
+
+.card-list .card-list-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.card-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+
+.card-list .text-popup {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-white-color);
+}
